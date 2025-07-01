@@ -8831,7 +8831,7 @@ for (let item of json.channels) {
       item.icon ? ` tvg-logo="${item.icon}"` : ""
     } catchup="default" catchup-source="http://183.235.23.5:6610/190000002005/${
       item.params.ztecode
-    }/index.m3u8?AuthInfo=xxx&version=xxx&starttime=\${(b)yyyyMMddHHmmss:utc}&endtime=\${(e)yyyyMMddHHmmss:utc}&IASHttpSessionId=RR14722720250701090808412717&ispcode=7",${
+    }/index.m3u8?AuthInfo=xxx&version=xxx&starttime=\${start}&endtime=\${end}&IASHttpSessionId=RR14722720250701090808412717&ispcode=7",${
       item.title
     }`
   );
